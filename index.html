@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บธรรมเนียบรุ่น</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-bottom: 40px; /* ฟุตเตอร์ */
+        }
+        .navbar {
+            background-color: #22748f; /* แถบเมนู */
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 20px;
+        }
+        .navbar a {
+            color: white; /*แถบเมนู*/
+            text-align: center;
+            padding: 24px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background-color: #87CEFA; /*สีแถบเมนู*/
+        }
+        .navbar img {
+            height: 60px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h1 {
+            margin-bottom: 30px;
+        }
+        .row {
+            display: flex; /*แถวจัดลำดับ*/
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .row a {
+            text-decoration: none; /*ปุ่มรุ่นที่** */
+            color: #595959; /* สีฟ้าเข้ม */
+            font-size: 20px; /* ขนาดเล็กลง */
+            font-weight: bold; /* ข้อความตัวหนา */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            width: calc(25% - 20px); /* 4 รุ่นในแถว */
+        }
+        .row img {
+            width: 200px; /* ขนาดเล็กลง */
+            height: auto;
+            display: block;
+            border: 4px solid #890505; /* ขอบสีฟ้าเข้ม */
+            border-radius: 15px; /* มุมมน */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* เงา */
+        }
+        .row a:hover {
+            color: #4682B4; /* เปลี่ยนสีตัวอักษรเมื่อ hover */
+        }
+        footer {
+            background-color: #cccccc; 
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+
+            bottom: 100;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div>
+            <a href="#home">หน้าแรก</a>
+            <a href="#about">เกี่ยวกับ</a>
+            <a href="#documents">เอกสาร</a>
+            <a href="#contact">ติดต่อ</a>
+        </div>
+        <div>
+            <img src="https://www.cs.mju.ac.th/assets/logo.aa2240c2.png" alt="โลโก้">
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>ธรรมเนียบรุ่น วิทยาการคอมพิวเตอร์ </h1>
+
+        <!-- ลิงค์รุ่นที่ 1 ถึงรุ่นที่ 30 -->
+        <div class="row">
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 1">
+                รุ่นที่ 1
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 2">
+                รุ่นที่ 2
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 3">
+                รุ่นที่ 3
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 4">
+                รุ่นที่ 4
+            </a>
+        </div>
+        <div class="row">
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 5">
+                รุ่นที่ 5
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 6">
+                รุ่นที่ 6
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 7">
+                รุ่นที่ 7
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 8">
+                รุ่นที่ 8
+            </a>
+        </div>
+        <div class="row">
+            <a href="#รุ่นที่9">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 9">
+                รุ่นที่ 9
+            </a>
+            <a href="#รุ่นที่10">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 10">
+                รุ่นที่ 10
+            </a>
+            <a href="#รุ่นที่11">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 11">
+                รุ่นที่ 11
+            </a>
+            <a href="#รุ่นที่12">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 12">
+                รุ่นที่ 12
+            </a>
+        </div>
+        <div class="row">
+            <a href="#รุ่นที่13">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 13">
+                รุ่นที่ 13
+            </a>
+            <a href="#รุ่นที่14">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 14">
+                รุ่นที่ 14
+            </a>
+            <a href="#รุ่นที่15">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 15">
+                รุ่นที่ 15
+            </a>
+            <a href="#รุ่นที่16">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 16">
+                รุ่นที่ 16
+            </a>
+        </div>
+        <div class="row">
+            <a href="#รุ่นที่17">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 17">
+                รุ่นที่ 17
+            </a>
+            <a href="#รุ่นที่18">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 18">
+                รุ่นที่ 18
+            </a>
+            <a href="#รุ่นที่19">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 19">
+                รุ่นที่ 19
+            </a>
+            <a href="#รุ่นที่20">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 20">
+                รุ่นที่ 20
+            </a>
+        </div>
+        <div class="row">
+            <a href="#รุ่นที่21">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 21">
+                รุ่นที่ 21
+            </a>
+            <a href="#รุ่นที่22">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 22">
+                รุ่นที่ 22
+            </a>
+            <a href="#รุ่นที่23">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 23">
+                รุ่นที่ 23
+            </a>
+            <a href="#รุ่นที่24">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 24">
+                รุ่นที่ 24
+            </a>
+        </div>
+        <div class="row">
+            <a href="#รุ่นที่25">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 25">
+                รุ่นที่ 25
+            </a>
+            <a href="#รุ่นที่26">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 26">
+                รุ่นที่ 26
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 27">
+                รุ่นที่ 27
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 28">
+                รุ่นที่ 28
+            </a>
+        </div>
+        <div class="row">
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 29">
+                รุ่นที่ 29
+            </a>
+            <a href="index2.html">
+                <img src="https://img.pikbest.com/ai/illus_our/20230426/e5f21875f00d7a4f8fc3e06705f25db0.jpg!w700wp" alt="รุ่นที่ 30">
+                รุ่นที่ 30
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>จัดทำโดย นพดล เพ่งพิศ</p>
+        <p>Copyright © 2024 Computer Science MJU</p>
+    </footer>
+
+</body>
+</html>

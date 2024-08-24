@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บธรรมเนียบรุ่น</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-bottom: 40px; /* ฟุตเตอร์ */
+        }
+        .navbar {
+            background-color: #22748f; /* แถบเมนู */
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            padding: 0 20px;
+        }
+        .navbar a {
+            color: white; /*แถบเมนู*/
+            text-align: center;
+            padding: 24px 20px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            background-color: #87CEFA; /*สีแถบเมนู*/
+        }
+        .navbar img {
+            height: 60px;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h1 {
+            margin-bottom: 10px; /* ลดระยะห่างของหัวข้อหลัก */
+        }
+       
+        .student-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 คอลัมน์ */
+            gap: 20px; /* ช่องว่างระหว่างกริด */
+            justify-content: center;
+        }
+        .student-info {
+            text-align: center;
+            text-decoration: none;
+            border: 2px solid #f46a6a; /* ขอบของปุ่ม */
+            border-radius: 10px; /* มุมมน */
+            background-color: #f0f0f0; /* สีพื้นหลังปุ่ม */
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .student-info:hover {
+            background-color: #989797; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+        }
+        .student-info img {
+            width: 100%; /* ปรับขนาดของรูปภาพให้เต็มขอบเขต */
+            height: auto;
+            border: 2px solid #717171; /* ขอบของรูปภาพ */
+            border-radius: 10px; /* มุมมน */
+            margin-bottom: 10px;
+        }
+        .student-info p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #cccccc; 
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+
+            bottom: 100;
+            width: 100%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div>
+            <a href="index1.html">หน้าแรก</a>
+            <a href="#about">เกี่ยวกับ</a>
+            <a href="#documents">เอกสาร</a>
+            <a href="#contact">ติดต่อ</a>
+        </div>
+        <div>
+            <img src="https://www.cs.mju.ac.th/assets/logo.aa2240c2.png" alt="โลโก้">
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>ธรรมเนียบรุ่น วิทยาการคอมพิวเตอร์</h1>
+        <h2>รุ่นที่ 1</h2>
+        
+        <div class="student-grid">
+            <a href="index3.html" class="student-info">
+                <img src="img/e3.png" alt="นักศึกษา">
+                <p>ชื่อ: สมเขียด กรุงธนคอมเพล็ก</p>
+                <p>รหัสนักศึกษา: 6604104101</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <!-- เพิ่มข้อมูลนักศึกษาเพิ่มเติมที่นี่ -->
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+            <a href="#" class="student-info">
+                <img src="img/e345.jpg" alt="นักศึกษา">
+                <p>ชื่อ: ***** *********</p>
+                <p>รหัสนักศึกษา: **********</p>
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>จัดทำโดย นพดล เพ่งพิศ</p>
+        <p>Copyright © 2024 Computer Science MJU</p>
+    </footer>
+
+</body>
+</html>
